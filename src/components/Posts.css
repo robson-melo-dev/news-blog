@@ -1,0 +1,21 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    width: 90vw;
+}
+
+.post__card{
+    width: 20vw;
+    height: 5em;
+    background-color: beige;
+    border-radius: 1em;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.post__link{
+    color: black;
+    text-decoration: none;
+}
