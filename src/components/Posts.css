@@ -1,3 +1,10 @@
+.postsTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5em;
+}
 .posts{
     display: flex;
     flex-direction: row;
@@ -55,4 +62,36 @@
 .post__link{    
     text-decoration: none;
     color: crimson;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: midnightblue;
+    color: white;
+}
+
+.pages__numbers{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    list-style: none;
+}
+
+.page{
+    border: solid 1px white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    
+}
+.page__link{
+    text-decoration: none;
+    color: white;
 }
