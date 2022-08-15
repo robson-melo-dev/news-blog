@@ -1,0 +1,135 @@
+@import "./Variables/Variables.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.categories{
+    display:flex;
+    align-content: center;
+    flex-wrap: wrap;
+    min-height: 5em;
+    justify-content: space-between;
+    background-color: $almostWhite;
+    color: $blackCofee;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.category{
+    display: flex;
+    background-color: $bluish;
+    color: $almostWhite;
+    height: 2em;
+    margin-left: 1em;
+    margin-right:1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.3em;
+    cursor: pointer;
+
+}
+
+.category--selected{
+    display: flex;
+    background-color: $fieryRose;
+    color: $almostWhite;
+    height: 2em;
+    margin-left: 1em;
+    margin-right:1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.postsTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;   
+    width: 100%;
+    background-color: $almostWhite;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20em;
+    min-height: 5em;
+    background-color: $bluish;
+    color: $almostWhite;
+    border-radius: 0.2em;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 1em;
+    font-family: $bodyFont;
+}
+
+.post__img{
+    width: 16em;
+    height: 9em;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.post__content{
+    text-align: left;
+    width: 100%;
+    font-size: 1em;
+    height: 12em;
+    background-color: $almostWhite;
+    color: $raisinBlack;
+    overflow-y: hidden;
+    padding: 0.5em;
+    font-family: $bodyFont;
+}
+
+.post__date{
+    width: 100%;
+    text-align: left;
+}
+
+.post__link{ 
+    margin-top: 2em; 
+    border-radius: 1em;  
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 8em;
+    text-decoration: none;
+    background-color: $fieryRose;
+    color: $almostWhite;
+    text-transform: uppercase;
+    font-family: $titleFont;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: $bluish;
+    color: $almostWhite;
+}
+

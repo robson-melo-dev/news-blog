@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.categories {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  min-height: 5em;
+  justify-content: space-between;
+  background-color: #F7F7F7;
+  color: #3C3744;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.category {
+  display: flex;
+  background-color: #2978A0;
+  color: #F7F7F7;
+  height: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.category--selected {
+  display: flex;
+  background-color: #FF5666;
+  color: #F7F7F7;
+  height: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.postsTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 5em;
+}
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #F7F7F7;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 20em;
+  min-height: 5em;
+  background-color: #2978A0;
+  color: #F7F7F7;
+  border-radius: 0.2em;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 1em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.post__img {
+  width: 16em;
+  height: 9em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.post__content {
+  text-align: left;
+  width: 100%;
+  font-size: 1em;
+  height: 12em;
+  background-color: #F7F7F7;
+  color: #2D2D34;
+  overflow-y: hidden;
+  padding: 0.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.post__date {
+  width: 100%;
+  text-align: left;
+}
+
+.post__link {
+  margin-top: 2em;
+  border-radius: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 8em;
+  text-decoration: none;
+  background-color: #FF5666;
+  color: #F7F7F7;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #2978A0;
+  color: #F7F7F7;
+}/*# sourceMappingURL=Posts.css.map */
