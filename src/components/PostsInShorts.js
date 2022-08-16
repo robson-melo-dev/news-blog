@@ -1,4 +1,4 @@
-import '../styles/Posts.css'
+import '../styles/posts.css'
 import React, {useState} from 'react'
 import {useQuery} from '@tanstack/react-query'
 
@@ -39,11 +39,11 @@ function PostsInShorts() {
 
   return (
     <>
-    <div className='categories'>
+    <div className='category'>
         <h3>CATEGORY:</h3>
         {categories?.map?.((cat) =>(
             cat === category ? (<div className='category--selected' onClick={()=>setCategory(cat)} key={cat}>{cat}</div>) :
-            (<div className='category' onClick={()=>setCategory(cat)} key={cat}>{cat}</div>)
+            (<div className='category__item' onClick={()=>setCategory(cat)} key={cat}>{cat}</div>)
         ))}
         </div>
     <div className="postsTable">
